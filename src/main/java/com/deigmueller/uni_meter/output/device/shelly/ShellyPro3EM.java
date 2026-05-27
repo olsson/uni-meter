@@ -1143,7 +1143,7 @@ public class ShellyPro3EM extends Shelly {
           getHostname(remoteAddress),
           getMac(remoteAddress),
           1,
-          "SPEM-003CEBEU",
+          "SPRO-3EM",
           2,
           getConfig().getString("fw"),
           versionMatcher.find() ? versionMatcher.group("version") : "1.4.4",
